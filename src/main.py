@@ -133,9 +133,10 @@ class KivyVirtualJoystick(App):
             await asyncio.sleep(0.01)
 
         rate = oak_client.config.subscriptions[0].every_n
+        uri = {"path":f'{oak_client.config.name}/{view_name}'} 
 
         async for event, payload in oak_client.subscribe(
-            SubscribeRequest(uri=Uri(path=f"/{view_name}"), every_n=rate),
+            SubscribeRequest(uri=uri, every_n=rate),
             decode=False,
         ):
 
