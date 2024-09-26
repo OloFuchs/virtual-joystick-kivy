@@ -7,7 +7,7 @@ To learn more about building you own custom applications, please refer to:
 [amiga.farm-ng.com - **Developing Custom Applications**](https://amiga.farm-ng.com/docs/brain/brain-apps)
 
 > [!IMPORTANT]
-> This app will only work on Amiga Brains using v2.3+ of our OS. If you are not sure of which version you have, contact support@farm-ng.com 
+> This app will only work on Amiga Brains using v2.3+ of our OS. If you are not sure of which version you have, contact support@farm-ng.com
 
 To install the Virtual Joystick App on your Amiga Brain, ssh into your robot and clone the repo to your user's home directory:
 
